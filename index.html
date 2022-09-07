@@ -31,8 +31,10 @@
                 return(
                     <div class="container my-3">
                         <h1 class="fst-italic">Fast Dictionary</h1>
-                        <div>
-                            <input class="my-3 p-3" autocomplete="off" placeholder="Look up a word" onChange={this.updateInput} value={this.state.input}/>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <input class="form-control my-3 p-3" autocomplete="off" placeholder="Look up a word" onChange={this.updateInput} value={this.state.input}/>
+                            </div>
                         </div>
                         <div>
                             <div>
